@@ -1,6 +1,6 @@
 class BuySellStocks{
     public static int BestTimeToBuy(int prices[]){
-        int buyPrice=prices[0];
+        int buyPrice=Integer.MAX_VALUE;
         int maxProfit=0;
         for(int i=0;i<prices.length;i++){
             if(buyPrice<prices[i]){
