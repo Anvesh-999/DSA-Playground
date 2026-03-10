@@ -11,3 +11,4 @@ public class CheckEvenOdd {
         check(80);
     }
 }
+    
