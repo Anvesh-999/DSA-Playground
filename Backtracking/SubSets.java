@@ -6,7 +6,7 @@ public class SubSets {
         }
         findSubSets(str, ans+str.charAt(i), i+1);
         findSubSets(str, ans, i+1);
-    }
+    }  
     public static void main(String args[]){
         String str="abc";
         findSubSets(str, "", 0);
