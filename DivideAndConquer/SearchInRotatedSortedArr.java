@@ -1,5 +1,6 @@
 class SearchInRotatedSortedArr{
     public static int SearchRotateSortArr(int arr[],int target,int si,int ei){
+        if(si >ei) return -1;
         int mid=si+(ei-si)/2;
         if(arr[mid]==target) return mid;
 
